@@ -1,0 +1,7 @@
+import {
+  "username/spike" @spike,
+}
+
+options(
+  "is-main": true,
+)
