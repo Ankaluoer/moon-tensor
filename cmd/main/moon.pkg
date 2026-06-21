@@ -1,5 +1,5 @@
 import {
-  "username/spike" @spike,
+  "Ankaluoer/moon-tensor" @lib,
 }
 
 options(

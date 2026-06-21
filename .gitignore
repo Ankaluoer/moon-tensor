@@ -1,4 +1,14 @@
-.DS_Store
+# MoonBit build artifacts
 _build/
-.mooncakes/
-.moonagent/
+target/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
