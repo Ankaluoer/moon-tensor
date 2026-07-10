@@ -6,6 +6,8 @@ pub fn conv1d(Array[Double], Array[Double], Int, Int, Int, Int) -> Array[Double]
 
 pub fn gemm(Array[Double], Array[Double], Int, Int, Int) -> Array[Double]
 
+pub fn linear(Array[Double], Array[Double], Array[Double], Int, Int, Int) -> Array[Double]
+
 pub fn max_abs_diff(Array[Double], Array[Double]) -> Double
 
 // Errors
