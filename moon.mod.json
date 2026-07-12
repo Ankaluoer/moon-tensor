@@ -4,6 +4,12 @@
   "readme": "README.mbt.md",
   "repository": "https://github.com/Ankaluoer/moon-tensor",
   "license": "Apache-2.0",
-  "keywords": [],
-  "description": ""
+  "keywords": [
+    "moonbit",
+    "tensor",
+    "neural-network",
+    "inference",
+    "wasm"
+  ],
+  "description": "MoonBit neural network inference operators for small, portable deployments."
 }
