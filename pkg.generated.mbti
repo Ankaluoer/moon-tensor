@@ -10,6 +10,10 @@ pub fn linear(Array[Double], Array[Double], Array[Double], Int, Int, Int) -> Arr
 
 pub fn max_abs_diff(Array[Double], Array[Double]) -> Double
 
+pub fn relu(Array[Double]) -> Array[Double]
+
+pub fn sigmoid(Array[Double]) -> Array[Double]
+
 // Errors
 
 // Types and methods
