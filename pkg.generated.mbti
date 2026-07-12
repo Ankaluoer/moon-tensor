@@ -8,6 +8,8 @@ pub fn gelu(Array[Double]) -> Array[Double]
 
 pub fn gemm(Array[Double], Array[Double], Int, Int, Int) -> Array[Double]
 
+pub fn layer_norm(Array[Double], Array[Double], Array[Double], Double) -> Array[Double]
+
 pub fn linear(Array[Double], Array[Double], Array[Double], Int, Int, Int) -> Array[Double]
 
 pub fn log_softmax(Array[Double]) -> Array[Double]
@@ -15,6 +17,8 @@ pub fn log_softmax(Array[Double]) -> Array[Double]
 pub fn max_abs_diff(Array[Double], Array[Double]) -> Double
 
 pub fn relu(Array[Double]) -> Array[Double]
+
+pub fn rms_norm(Array[Double], Array[Double], Double) -> Array[Double]
 
 pub fn sigmoid(Array[Double]) -> Array[Double]
 
