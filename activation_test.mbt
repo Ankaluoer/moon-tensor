@@ -25,3 +25,15 @@ test "sigmoid large positive and negative" {
     max_abs_diff(out, [0.9999546021312976, 0.0000453978687024]) < 1.0e-4,
   )
 }
+
+///|
+test "gelu zero" {
+  let out = gelu([0.0])
+  assert_true(max_abs_diff(out, [0.0]) < 1.0e-6)
+}
+
+///|
+test "gelu one" {
+  let out = gelu([1.0])
+  assert_true(max_abs_diff(out, [0.8413]) < 1.0e-3)
+}
